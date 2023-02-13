@@ -1,0 +1,25 @@
+#include <stdio.h>
+
+// Outputs average of list of integers
+// First value indicates list size
+// Ex: 4  10 1 6 3  yields (10 + 1 + 6 + 3) / 4, or 5
+
+int main(void) {
+   int currValue;
+   int valuesSum;
+   int numValues;
+   int i;
+
+   scanf("%d", &numValues); // Gets number of values in list
+
+   valuesSum = 0;
+
+   for (i = 0; i < numValues; ++i) {
+      scanf("%d", &currValue); // Gets next value in list
+      valuesSum += currValue;
+   }
+
+   printf("Average: %d\n", (valuesSum / numValues));
+
+   return 0;
+}
