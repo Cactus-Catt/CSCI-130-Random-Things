@@ -1,0 +1,15 @@
+#include <stdio.h>
+
+int main(void) {
+   int currC;
+   double equivalentF;
+  
+   for (currC = -10; currC <= 40; currC += 5) {
+      equivalentF = (currC * 9.0 / 5.0) + 32.0;
+      
+      printf("%d  C is ", currC);
+      printf("%lf F\n", equivalentF);
+   }
+   
+   return 0;
+}
