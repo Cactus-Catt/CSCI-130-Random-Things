@@ -1,3 +1,3 @@
 # CSCI-130-Random-Things
 
-Notes and ramdom programs for CSCI 130 - Scientific Programing
+Notes and random programs for CSCI 130 - Scientific Programing
